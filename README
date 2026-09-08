@@ -1,0 +1,60 @@
+# Playwright Installation Guide
+
+This guide will walk you through the installation process of Playwright, an end-to-end testing framework for web applications.
+
+## Prerequisites
+
+Before you start, ensure you have the following installed:
+
+- Node.js (version >= 10)
+- npm (Node Package Manager)
+
+## Installation
+
+Follow these steps to install playwright:
+
+1.  **Install Node.js**: If you haven't already installed Node.js, download and install it from the [official website](https://nodejs.org/).
+
+2.  **Playwright Installation**
+
+    npm init playwright@latest
+
+3.  **Run playwright**: Commands to run test files in Playwright
+
+    Open/headed mode:
+    npx playwright test --headed
+
+    run/headless mode:
+    npx playwright test
+
+    npx playwright test file name  - command to run specific spec file
+
+    **commands to run from particular browser**
+    npx playwright test --project=chromium
+
+    npx playwright test --project=firefox
+
+    npx playwright test --project=Chrome
+
+
+
+
+
+## Reports\*\*
+
+1. **Screenshots on Failure**: Screenshots are captured only when a test fails. This helps in debugging by providing visual evidence of issues that occurred during test execution.
+
+2. **Video Recording**: Video recordings are enabled while executing the scripts, allowing you to review the entire test run for better analysis of the flow and potential issues.
+
+3. **Reports**: HTML reports are generated, providing a detailed summary of test execution, including passed and failed tests, with additional insights into any issues encountered during the run.
+
+**TImeZone conversion**: Run this command in bash to set up the timeZone conversion in typescript
+
+    npm install date-fns-tz
+
+**DOTENV File**
+
+install .env file for storing the environment variables
+
+    1. npm install dotenv --save - Run this command in the bash to install the dotenv file
+    2. Create the .env file in your root directory to manage your environment variables

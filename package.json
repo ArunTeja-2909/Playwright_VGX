@@ -1,0 +1,19 @@
+{
+  "name": "vxg",
+  "version": "1.0.0",
+  "description": "automating alerts flows as part of test assignment",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "vikas_qa_engineer",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2"
+  },
+  "dependencies": {
+    "date-fns-tz": "^3.2.0",
+    "dotenv": "^16.4.7",
+    "typescript": "^5.7.2"
+  }
+}

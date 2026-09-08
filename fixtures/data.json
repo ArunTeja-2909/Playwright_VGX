@@ -1,0 +1,18 @@
+{
+    "userName": "dev@testing.com",
+    "password": "123456",
+    "expectedDropdownItems": ["Time", "Name", "Type", "Status"],
+    "verifyFilters": ["Time", "Type", "Status"],
+    "site": "Site",
+    "selectSite": "Toronto",
+    "changeToUTC": "'UTC'",
+    "cameras": "Camera: All",
+    "cameraName": "Axis",
+    "name": "Name",
+    "nameValue": "Open door",
+    "last30Days": "Last 30 days",
+    "lastOneHour": "Last hour",
+    "last24Hours": "Last 24 hours",
+    "last7Days": "Last 7 days",
+    "count": "6"
+}
